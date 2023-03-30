@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Liam's Corner</title>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sigmar+One&family=Varela+Round&display=swap" rel="stylesheet">
+  
+  <!-- fontawesome  -->
+  <script src="https://kit.fontawesome.com/631dc6a2ef.js" crossorigin="anonymous"></script>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <section id="header">
+  <div class="topnav">
+    <a class="brand" href="#home">Liam's Corner</a>
+    <div class="cart">
+        <i class="fa-solid fa-cart-shopping fa-xl"><span>0</span></i>
+    <div>
+  </div>
+</section>
+
+<br>
+
+<!-- carousel section  -->
+<section id="carousel">
+  <div class="slideshow-container" >
+      <div class="mySlides fade">
+        <img class="slide-img" src="baby.jpeg" style="width: 100%; height: 400px;">
+      </div>
+  
+      <div class="mySlides fade">
+        <img class="slide-img" src="slide2.jpg" style="width: 100%; height: 400px;" >
+      </div>
+  
+      <div class="mySlides fade">
+        <img class="slide-img" src="slide3.jpg" style="width: 100%; height: 400px;">
+      </div>
+  
+        <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</section>
+
+
+
+<!-- product-list section  -->
+<section id="product-list">
+
+  <div class = "wrapper">
+    <div class = "container">
+        <div class = "title">
+            <h1>Best Sellers!</h1>
+        </div>
+
+        <div class = "product">
+            <div class = "product-container">
+
+                <div class = "product-item">
+                    <div class = "product-img">
+                        <img src = "item1.jpg" alt = "">
+                    </div>
+                    <div class = "product-content">
+                        <a href = "#" class = "item-title">Baby Boy Onesie </a>
+                        <div>
+                            <span class = "price">$ 48</span>
+                        </div>
+                        <div>
+                            <button type = "button" class = "add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "product-item">
+                    <div class = "product-img">
+                        <img src = "item2.jpg" alt = "">
+                    </div>
+                    <div class = "product-content">
+                        <a href = "#" class = "item-title">Baby Girl Onesie</a>
+                        <div>
+                            <span class = "price">$ 49</span>
+                        </div>
+                        <div>
+                            <button type = "button" class = "add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "product-item">
+                    <div class = "product-img">
+                        <img src = "item3.jpg" alt = "">
+                    </div>
+                    <div class = "product-content">
+                        <a href = "#" class = "item-title">Coordinates</a>
+                        <div>
+                            <span class = "price">$ 50</span>
+                        </div>
+                        <div>
+                            <button type = "button" class = "add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "product-item">
+                    <div class = "product-img">
+                        <img src = "item4.jpg" alt = "">
+                    </div>
+                    <div class = "product-content">
+                        <a href = "#" class = "item-title">Boys Shirt</a>
+                        <div>
+                            <span class = "price">$ 51</span>
+                        </div>
+                        <div>
+                            <button type = "button" class = "add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "product-item">
+                    <div class = "product-img">
+                        <img src = "item5.jpg" alt = "">
+                    </div>
+                    <div class = "product-content">
+                        <a href = "#" class = "item-title">Boys Shoes</a>
+                        <div>
+                            <span class = "price">$ 52</span>
+                        </div>
+                        <div>
+                            <button type = "button" class = "add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "product-item">
+                    <div class = "product-img">
+                        <img src = "item6.jpg" alt = "">
+                    </div>
+                    <div class = "product-content">
+                        <a href = "#" class = "item-title">Girls Shoes</a>
+                        <div>
+                            <span class = "price">$ 53</span>
+                        </div>
+                        <div>
+                            <button type = "button" class = "add-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</section> 
+
+<section id="footer">
+
+  <footer>
+    <i class="icon-footer fa-brands fa-twitter"></i>
+    <i class="icon-footer fa-brands fa-facebook"></i>
+    <i class="icon-footer fa-brands fa-instagram"></i>
+    <i class="icon-footer fa-solid fa-envelope"></i>
+    <p class="copyright">© 2023 Katleen Faye Pagcu.</p>
+  </footer>
+
+</section>
+
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+</html>
